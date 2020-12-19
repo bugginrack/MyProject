@@ -10,7 +10,7 @@ Smalltalk globals
 Metacello new
 	baseline: 'MyProject';
 	repository: MyRepository,'/MyProject/src';
-	fetch.
+	load.
 ```
 
 ## Loading from a local folder
@@ -23,5 +23,5 @@ Smalltalk globals
 Metacello new
 	baseline: 'MyProject';
 	repository: MyRepository,'/MyProject/src';
-	fetch.
+	load.
 ```
